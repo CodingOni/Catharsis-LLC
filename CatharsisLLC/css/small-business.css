@@ -69,7 +69,7 @@ body > div > div:nth-child(3) > div:nth-child(2) > div > div.card-body > img{
     border-top: 1px solid rgba(0,0,0,.125);
 }
 
-/* Dropdown Button */
+/* updown Button */
 .dropbtn {
   background-color: #a464c7;
   color: white;
@@ -119,6 +119,7 @@ body > div > div:nth-child(3) > div:nth-child(2) > div > div.card-body > img{
 .dropup {
   position: relative;
   display: inline-block;
+  padding-bottom:10px
 }
 
 .dropup-content {
@@ -135,6 +136,7 @@ body > div > div:nth-child(3) > div:nth-child(2) > div > div.card-body > img{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  margin-bottom: -5%;
 }
 
 .dropup-content a:hover {background-color: #ccc}
@@ -144,13 +146,33 @@ body > div > div:nth-child(3) > div:nth-child(2) > div > div.card-body > img{
 }
 
 .dropup:hover .dropbtn {
-  background-color: #2980B9;
+  background-color: #800080;
 }
 
-.body > nav > div > p{
-  color: orange;
+body > nav > div > p{
+  color:white;
 }
 
-.body > nav > div > p:hover{
-visibility: visible;
+.cardImg {
+  width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .cardImg {
+    width: 100%;
+  }
+}
+
+.navbar-toggler{
+  background-image: url('')
+}
+
+.upbtn {
+  background-color: #a464c7;
+  color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}up
